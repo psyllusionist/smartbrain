@@ -58,7 +58,7 @@ class Register extends Component {
 	}
 
 	onRegisterPass = (e) => {
-		fetch('http://localhost:3001/register', {
+		fetch('https://thawing-chamber-05508.herokuapp.com/register', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
